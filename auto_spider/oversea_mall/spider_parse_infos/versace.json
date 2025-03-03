@@ -1,0 +1,112 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//span[@class=\"active current-category cursor-default\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//h1[@class=\"product-name overflow-hidden\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//h3[@class=\"product-name\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"step-one js-step-one product-detail\"]/h2[@class=\"product-name\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-info\"]/h2[@class=\"product-name\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"og:title\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//div[@class=\"col-12\"]/div[@class=\"product-prices prices d-flex\"]/div[@class=\"price back-to-product-anchor-js\"]/span[@class=\"default-pricing\"]/span[@class=\"sales\"]/span[@class=\"value\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"step-one js-step-one product-detail\"]/div[@class=\"product-prices prices d-flex\"]/div[@class=\"price back-to-product-anchor-js\"]/span[@class=\"default-pricing\"]/span[@class=\"sales\"]/span[@class=\"value\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"product:price:amount\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"col-12\"]/div[@class=\"product-prices prices d-flex\"]/div[@class=\"price back-to-product-anchor-js\"]/span[@class=\"default-pricing\"]/span[@class=\"sales\"]/span[@class=\"value\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"step-one js-step-one product-detail\"]/div[@class=\"product-prices prices d-flex\"]/div[@class=\"price back-to-product-anchor-js\"]/span[@class=\"default-pricing\"]/span[@class=\"sales\"]/span[@class=\"value\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [
+            {
+                "xpath": "//meta[@itemprop=\"og:image\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//img[@class=\"product-image img-fluid \"]/@src",
+                "node_index": 0
+            }
+        ],
+        "brand": [],
+        "breadlist": [
+            {
+                "xpath": "//a[@class=\"breadcrumb-link\"]/span[@aria-hidden=\"true\"]/text()",
+                "node_index": 2
+            }
+        ],
+        "itemid": [
+            {
+                "xpath": "//div[@class=\"product-detail product-wrapper position-relative product-in-promo\"]/@data-product-id",
+                "node_index": 0
+            }
+        ],
+        "skuid": [
+            {
+                "xpath": "//div[@class=\"col-12 value content\"]/p[@class=\"product-number\"]/span[@class=\"js-product-number\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"step-one js-step-one product-detail\"]/p[@class=\"product-number\"]/span[@class=\"js-product-number\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-detail product-wrapper position-relative product-in-promo\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"col-xs-12 d-flex quantity-addtocart-grid-pdp\"]/div[@class=\"cart-and-ipay\"]/div[@class=\"add-to-cart-container\"]/button[@class=\"\n                        add-to-cart btn btn-primary text-uppercase uncached-ajax-js add-to-cart-label-js w-100\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"sticky-add-to-bag\"]/div[@class=\"cart-and-ipay\"]/div[@class=\"add-to-cart-container\"]/button[@class=\"\n                        add-to-cart btn btn-primary text-uppercase uncached-ajax-js add-to-cart-label-js w-100\"]/@data-pid",
+                "node_index": 0
+            }
+        ],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

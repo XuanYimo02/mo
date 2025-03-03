@@ -1,0 +1,77 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//span[@class=\"product-view__title-name\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//div[@class=\"product-view__price\"]/span[@class=\"price  \"]/span[@class=\"price__current\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-view__price\"]/span[@class=\"price  \"]/@data-value",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [
+            {
+                "xpath": "//div[@class=\"product-view__price\"]/span[@class=\"price price--discount \"]/del[@class=\"price__original\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "cur_price": [
+            {
+                "xpath": "//div[@class=\"product-view__price\"]/span[@class=\"price price--discount \"]/span[@class=\"price__current\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-view__price\"]/span[@class=\"price price--discount \"]/@data-value",
+                "node_index": 0
+            }
+        ],
+        "img": [],
+        "brand": [
+            {
+                "xpath": "//a[@class=\"product-view__title-brand\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "breadlist": [],
+        "itemid": [
+            {
+                "xpath": "//form[@class=\"product-view__form product-form \"]/input[@type=\"hidden\"]/@value",
+                "node_index": 0
+            }
+        ],
+        "skuid": [
+            {
+                "xpath": "//form[@class=\"product-view__form product-form \"]/input[@type=\"hidden\"]/@value",
+                "node_index": 0
+            }
+        ],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": [
+            {
+                "json_xpath": "//script/text()",
+                "json_node_index": 1,
+                "json_index": 0,
+                "json_key": "ecommerce>>>detail>>>products>>>list_index_0>>>category",
+                "divide_flag": null
+            }
+        ]
+    }
+}

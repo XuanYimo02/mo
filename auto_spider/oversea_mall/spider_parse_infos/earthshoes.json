@@ -1,0 +1,87 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//h1[@class=\"product-title uppercase--false\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-add-to-cart-sticky--title\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//div[@class=\"no-js-hidden\"]/span[@class=\"price\"]/ins/span[@class=\"amount\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-add-to-cart-sticky--info\"]/div[@id]/span[@class=\"price\"]/ins/span[@class=\"amount\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"og:price:amount\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [
+            {
+                "xpath": "//div[@class=\"no-js-hidden\"]/span[@class=\"price\"]/del/span[@class=\"amount\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-add-to-cart-sticky--info\"]/div[@id]/span[@class=\"price\"]/del/span[@class=\"amount\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "cur_price": [
+            {
+                "xpath": "//div[@class=\"no-js-hidden\"]/span[@class=\"price\"]/ins/span[@class=\"amount\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-add-to-cart-sticky--info\"]/div[@id]/span[@class=\"price\"]/ins/span[@class=\"amount\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"og:price:amount\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "img": [],
+        "brand": [],
+        "breadlist": [],
+        "itemid": [
+            {
+                "xpath": "//span[@class=\"stamped-product-reviews-badge stamped-main-badge\"]/@data-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//form[@class=\"form\"]/input[@name=\"product-id\"]/@value",
+                "node_index": 0
+            },
+            {
+                "xpath": "//form[@id=\"product-form-installment\"]/input[@name=\"product-id\"]/@value",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@id=\"stamped-main-widget\"]/@data-product-id",
+                "node_index": 0
+            }
+        ],
+        "skuid": [],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

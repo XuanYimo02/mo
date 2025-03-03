@@ -1,0 +1,71 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//span[@class=\"EKabf7 R_QwOV\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//span[@class=\"sDq_FX _4sa1cA FxZV-M HlZ_Tf\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@name=\"twitter:data1\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [
+            {
+                "xpath": "//span[@class=\"sDq_FX lystZ1 FxZV-M Yb63TQ ZiDB59 _3LATVU\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "cur_price": [
+            {
+                "xpath": "//span[@class=\"sDq_FX _4sa1cA dgII7d Km7l2y\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@name=\"twitter:data1\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "img": [],
+        "brand": [
+            {
+                "xpath": "//h3[@class=\"FtrEr_ QdlUSH FxZV-M HlZ_Tf _5Yd-hZ\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//h5[@class=\"sDq_FX EKH5rj FxZV-M HlZ_Tf q84f1m snL7ze\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "breadlist": [],
+        "itemid": [],
+        "skuid": [],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [
+            {
+                "json_xpath": "//div/div/script[@type=\"application/ld+json\"]/text()",
+                "json_node_index": 0,
+                "json_index": 0,
+                "json_key": "sku",
+                "divide_flag": null
+            }
+        ],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//h1[@class=\"product-single__title\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"nosto_product\"]/span[@class=\"name\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"og:title\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@name=\"twitter:title\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-section\"]/@data-product-title",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"yotpo yotpo-main-widget\"]/@data-name",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//span[@class=\"product__price\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"nosto_product\"]/span[@class=\"price\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//afterpay-placement[@data-locale=\"en_US\"]/@data-amount",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [
+            {
+                "xpath": "//span[@class=\"product__price product__price--compare\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"nosto_product\"]/span[@class=\"list_price\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "cur_price": [
+            {
+                "xpath": "//span[@class=\"product__price on-sale\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"nosto_product\"]/span[@class=\"price\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//afterpay-placement[@data-locale=\"en_US\"]/@data-amount",
+                "node_index": 0
+            }
+        ],
+        "img": [],
+        "brand": [
+            {
+                "xpath": "//div[@class=\"product-single__vendor\"]/a/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@class=\"brand\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "breadlist": [],
+        "itemid": [
+            {
+                "xpath": "//span[@class=\"product_id\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-section\"]/@data-section-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"yotpo bottomLine\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@class=\"prod_id\"]/@data-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"tfc-fitrec-product\"]/@data-styleid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//input[@name=\"product-id\"]/@value",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"yotpo yotpo-main-widget\"]/@data-product-id",
+                "node_index": 0
+            }
+        ],
+        "skuid": [],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//span[@aria-current=\"page\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@class=\"full-name\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@class=\"short-name\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//a[@tabindex=\"-1\"]/span[@class=\"size-name\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//a[@class=\"size-link  selected \"]/span[@class=\"size-name\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"u-mobile-only wishlist_submit_mobile\"]/div[@role=\"button\"]/@data-productname",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"pdpBar__buttons\"]/div[@class=\"js-pdp-actions product-variant__add__actions \"]/div[@class=\"product-variant__wishlist u-desktop-only js-variation-list-sticky\"]/div[@role=\"button\"]/@data-productname",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-variant\"]/div[@class=\"js-pdp-actions product-variant__add__actions \"]/div[@class=\"product-variant__wishlist u-desktop-only js-variation-list-sticky\"]/div[@role=\"button\"]/@data-productname",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//span[@class=\"price-nocents\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@class=\"value\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [
+            {
+                "xpath": "//meta[@property=\"og:image\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "brand": [],
+        "breadlist": [
+            {
+                "xpath": "//a[@class=\"js-pdp-breadcrumb\"]/text()",
+                "node_index": 1
+            }
+        ],
+        "itemid": [
+            {
+                "xpath": "//meta[@name=\"dyProductId\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"pdpCore container product-detail product-wrapper\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"u-mobile-only wishlist_submit_mobile\"]/div[@role=\"button\"]/@data-pid-product",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"pdpBar__buttons\"]/div[@class=\"js-pdp-actions product-variant__add__actions \"]/div[@class=\"js-pdp-action-button product-variant__add \"]/div[@class=\"cart-and-ipay\"]/button[@class=\"add-to-cart\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"pdpBar__buttons\"]/div[@class=\"js-pdp-actions product-variant__add__actions \"]/div[@class=\"product-variant__wishlist u-desktop-only js-variation-list-sticky\"]/div[@role=\"button\"]/@data-pid-product",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-variant\"]/div[@class=\"js-pdp-actions product-variant__add__actions \"]/div[@class=\"js-pdp-action-button product-variant__add \"]/div[@class=\"cart-and-ipay\"]/button[@class=\"add-to-cart\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-variant\"]/div[@class=\"js-pdp-actions product-variant__add__actions \"]/div[@class=\"product-variant__wishlist u-desktop-only js-variation-list-sticky\"]/div[@role=\"button\"]/@data-pid-product",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@data-placement=\"pdp\"]/@sku",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"pdpDelivery\"]/@data-delivery-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"js-cc-cta-block pickup \"]/@data-pid",
+                "node_index": 0
+            }
+        ],
+        "skuid": [
+            {
+                "xpath": "//meta[@name=\"dyProductId\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"pdpCore container product-detail product-wrapper\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"u-mobile-only wishlist_submit_mobile\"]/div[@role=\"button\"]/@data-pid-product",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"pdpBar__buttons\"]/div[@class=\"js-pdp-actions product-variant__add__actions \"]/div[@class=\"js-pdp-action-button product-variant__add \"]/div[@class=\"cart-and-ipay\"]/button[@class=\"add-to-cart\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"pdpBar__buttons\"]/div[@class=\"js-pdp-actions product-variant__add__actions \"]/div[@class=\"product-variant__wishlist u-desktop-only js-variation-list-sticky\"]/div[@role=\"button\"]/@data-pid-product",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-variant\"]/div[@class=\"js-pdp-actions product-variant__add__actions \"]/div[@class=\"js-pdp-action-button product-variant__add \"]/div[@class=\"cart-and-ipay\"]/button[@class=\"add-to-cart\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-variant\"]/div[@class=\"js-pdp-actions product-variant__add__actions \"]/div[@class=\"product-variant__wishlist u-desktop-only js-variation-list-sticky\"]/div[@role=\"button\"]/@data-pid-product",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@data-placement=\"pdp\"]/@sku",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"pdpDelivery\"]/@data-delivery-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"js-cc-cta-block pickup \"]/@data-pid",
+                "node_index": 0
+            }
+        ],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

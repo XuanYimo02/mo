@@ -1,0 +1,121 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//span[@aria-current=\"page\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"row d-md-none\"]/div[@class=\"col\"]/h1[@class=\"product-name mb-0\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"row hidden-sm-down\"]/div[@class=\"col\"]/h1[@class=\"product-name mb-0\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"og:title\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@name=\"twitter:title\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//span[@class=\"value\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@class=\"value\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//button[@class=\"color-attribute rounded-circle overflow-hidden align-middle btn selected  selectable mr-1 mb-2\"]/@data-price-range",
+                "node_index": 0
+            },
+            {
+                "xpath": "//button[@class=\"color-attribute rounded-circle overflow-hidden align-middle btn   selectable mr-1 mb-2\"]/@data-price-range",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"promo-exclusion\"]/@id",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [
+            {
+                "xpath": "//span[@class=\"value text-gray-3\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@class=\"value text-gray-3\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "cur_price": [
+            {
+                "xpath": "//span[@class=\"value\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@class=\"value\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "img": [],
+        "brand": [],
+        "breadlist": [
+            {
+                "xpath": "//a[@class=\"breadcrumb-element stretched-link\"]/text()",
+                "node_index": 2
+            }
+        ],
+        "itemid": [
+            {
+                "xpath": "//div[@class=\"container product-detail product-wrapper mt-0\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"container product-detail product-wrapper mt-0\"]/@data-master-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"tfc-fitrec-product d-block\"]/@id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"tfc-fitrec-product d-block\"]/@data-styleid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//button[@class=\"add-to-cart btn btn btn-primary btn-block \"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"col col-12 wishlist-add py-5\"]/button[@type=\"button\"]/@data-pid",
+                "node_index": 0
+            }
+        ],
+        "skuid": [
+            {
+                "xpath": "//div[@id=\"outfits-widget-container\"]/@data-colorid",
+                "node_index": 0
+            }
+        ],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

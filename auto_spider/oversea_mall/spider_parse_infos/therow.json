@@ -1,0 +1,74 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//h1[@class=\"ProductMeta__Title Heading u-h2\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@name=\"twitter:title\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//span[@class=\"ProductMeta__Price Price Text--subdued u-h4\"]/span[@class=\"tlab-currency-format\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//option[@selected=\"selected\"]/span[@class=\"tlab-currency-format\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"product:price:amount\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "brand": [],
+        "breadlist": [],
+        "itemid": [
+            {
+                "xpath": "//button[@class=\"Popover__Value Heading Link Link--primary u-h6 is-selected\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//button[@class=\"Popover__Value Heading Link Link--primary u-h6 is-selected\"]/@data-value",
+                "node_index": 0
+            }
+        ],
+        "skuid": [
+            {
+                "xpath": "//div[@class=\"wishl-add-wrapper\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//input[@name=\"product-id\"]/@value",
+                "node_index": 0
+            }
+        ],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": [
+            {
+                "json_xpath": "//script[@type=\"application/ld+json\"]/text()",
+                "json_node_index": 1,
+                "json_index": 0,
+                "json_key": "category",
+                "divide_flag": null
+            }
+        ]
+    }
+}

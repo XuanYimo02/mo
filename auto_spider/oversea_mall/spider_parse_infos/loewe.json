@@ -1,0 +1,78 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//span[@id=\"capds-js-product-name\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//div[@class=\"capds-product-side capds-product-side__info\"]/p[@class=\"capds-product__price capds-price capds-price__container\"]/span[@class=\"capds-product__price--active\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"capds-product-actions-mobile sd-block d-lg-none\"]/div[@class=\"capds-product-side capds-product-side__buttons\"]/div[@id=\"capds-cart-button\"]/div[@class=\"capds-btn-square\"]/p[@class=\"capds-square-label capds-square-label--price\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"d-none d-lg-flex col-sm col-md-24 col-lg-5 offset-lg-1 order-lg-3 order-last\"]/div[@class=\"capds-product-side capds-product-side__buttons\"]/div[@id=\"capds-cart-button\"]/div[@class=\"capds-btn-square\"]/p[@class=\"capds-square-label capds-square-label--price\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [
+            {
+                "xpath": "//div[@class=\"swiper-wrapper\"]/div[@class=\"swiper-slide\"]/picture[@class]/source[@media=\"(min-width: 1025px)\"]/@srcset",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"swiper-wrapper\"]/div[@class=\"swiper-slide\"]/picture[@class]/source[@media=\"(min-width: 501px) and (max-width: 1024px)\"]/@srcset",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"swiper-wrapper\"]/div[@class=\"swiper-slide\"]/picture[@class]/source[@media=\"(max-width: 500px)\"]/@srcset",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"swiper-wrapper\"]/div[@class=\"swiper-slide\"]/picture[@class]/img[@data-preload=\"true\"]/@src",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"swiper-wrapper\"]/div[@class=\"swiper-slide\"]/picture[@class]/link/@href",
+                "node_index": 0
+            }
+        ],
+        "brand": [],
+        "breadlist": [
+            {
+                "xpath": "//li/a[@title]/@title",
+                "node_index": 3
+            }
+        ],
+        "itemid": [],
+        "skuid": [],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [
+            {
+                "json_xpath": "//script/text()",
+                "json_node_index": 3,
+                "json_index": 0,
+                "json_key": "products>>>list_index_0>>>colorId",
+                "divide_flag": null
+            }
+        ],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

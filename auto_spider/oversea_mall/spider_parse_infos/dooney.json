@@ -1,0 +1,141 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//h1[@class=\"product-name\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//div[@class=\"variation-price mb-1\"]/span[@class]/span[@class=\"sales\"]/span[@class=\"value bfx-price bfx-list-price\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@class=\"strike-through list\"]/span[@class=\"value bfx-price bfx-list-price\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span[@class]/span[@class=\"sales\"]/span[@class=\"value bfx-price bfx-list-price\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@class=\"bfx-price\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"variation-price mb-1\"]/span[@class]/span[@class=\"sales\"]/span[@class=\"value bfx-price bfx-list-price\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@class=\"strike-through list\"]/span[@class=\"value bfx-price bfx-list-price\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span[@class]/span[@class=\"sales\"]/span[@class=\"value bfx-price bfx-list-price\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [
+            {
+                "xpath": "//div[@class=\"variation-price mb-1\"]/span[@class]/span[@class=\"sales\"]/span[@class=\"value bfx-price bfx-list-price\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"variation-discount-price mb-1\"]/span[@class=\"with-sale\"]/span[@class=\"strike-through list\"]/span[@class=\"value bfx-price bfx-list-price\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span[@class=\"with-sale\"]/span[@class=\"strike-through list\"]/span[@class=\"value bfx-price bfx-list-price\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@class=\"bfx-price\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"variation-price mb-1\"]/span[@class]/span[@class=\"sales\"]/span[@class=\"value bfx-price bfx-list-price\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"variation-discount-price mb-1\"]/span[@class=\"with-sale\"]/span[@class=\"strike-through list\"]/span[@class=\"value bfx-price bfx-list-price\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span[@class=\"with-sale\"]/span[@class=\"strike-through list\"]/span[@class=\"value bfx-price bfx-list-price\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "cur_price": [
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span[@class=\"with-sale\"]/span[@class=\"sales\"]/span[@class=\"value bfx-price bfx-sale-price\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span[@class=\"with-sale\"]/span[@class=\"sales\"]/span[@class=\"value bfx-price bfx-sale-price\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "img": [
+            {
+                "xpath": "//div[@class=\"pdp-product-carousel row js-slider-images\"]/div[@class=\"js-pdp-slide\"]/a[@class=\"slide-link\n                zoom-hires\n                grid-img-wrapper\"]/@href",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"pdp-product-carousel row js-grid-images\"]/div[@class=\"col-lg-6 pl-lg-0 pr-lg-1 pb-lg-1 js-pdp-slide\"]/a[@class=\"slide-link\n                zoom-hires\n                grid-img-wrapper\"]/@href",
+                "node_index": 0
+            }
+        ],
+        "brand": [],
+        "breadlist": [
+            {
+                "xpath": "//a[@class=\"type-link-breadcrumb\"]/text()",
+                "node_index": 2
+            }
+        ],
+        "itemid": [],
+        "skuid": [
+            {
+                "xpath": "//span[@class=\"product-id bfx-sku\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"container product-detail product-wrapper bfx-price-container js-product-detail\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//button[@type=\"submit\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"col-12\"]/div[@class=\"row cart-and-ipay\"]/div[@class=\"col-sm-12\"]/button[@class=\"add-to-cart btn btn-primary\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"non-sticky col-12\"]/div[@class=\"row cart-and-ipay\"]/div[@class=\"col-sm-12\"]/button[@class=\"add-to-cart btn btn-primary\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"col-12 mt-1 mt-md-2\"]/div[@class=\"row\"]/div[@class=\"col-12\"]/div[@class=\"js-custom-back-in-stock d-none\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//script[@ltk-data-clearurl]/@ltk-data-sku",
+                "node_index": 0
+            }
+        ],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

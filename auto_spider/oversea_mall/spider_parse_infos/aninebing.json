@@ -1,0 +1,78 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//h1[@class=\"product__title heading--2\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//div[@class=\"pricing js-product-pricing hide-from@md\"]/div[@class=\"pricing__values\"]/div[@class=\"price price--final\"]/div[@class=\"price__value js-price \"]/span[@class=\"money\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"pricing js-product-pricing hide-until@md\"]/div[@class=\"pricing__values\"]/div[@class=\"price price--final\"]/div[@class=\"price__value js-price \"]/span[@class=\"money\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"product:price:amount\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "brand": [],
+        "breadlist": [],
+        "itemid": [
+            {
+                "xpath": "//svg[@viewbox=\"0 0 12 11\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//form[@id=\"ProductForm--desktop\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//label[@aria-checked=\"true\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//input[@name=\"product-id\"]/@value",
+                "node_index": 0
+            }
+        ],
+        "skuid": [
+            {
+                "xpath": "//svg[@viewbox=\"0 0 12 11\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//form[@id=\"ProductForm--desktop\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//label[@aria-checked=\"true\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//input[@name=\"product-id\"]/@value",
+                "node_index": 0
+            }
+        ],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

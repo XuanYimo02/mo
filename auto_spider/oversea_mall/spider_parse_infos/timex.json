@@ -1,0 +1,132 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//span[@aria-current=\"page\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//h1[@class=\"product-details__panel-title\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-detail__sticky-atc-details-title\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"og:title\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@name=\"twitter:title\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-details__review-stars product-details__review-stars--desktop\"]/div[@class=\"yotpo bottomLine\"]/@data-name",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-details__review-stars product-details__review-stars--mobile\"]/div[@class=\"yotpo bottomLine\"]/@data-name",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"yotpo yotpo-main-widget\"]/@data-name",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"yotpo-widget-instance\"]/@data-yotpo-name",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//span[@class=\"price-item price-item--regular\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@class=\"price-item price-item--sale price-item--last\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//s[@class=\"price-item price-item--slashed\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"og:price:amount\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [
+            {
+                "xpath": "//s[@class=\"price-item price-item--slashed\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "cur_price": [
+            {
+                "xpath": "//span[@class=\"price-item price-item--regular\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@class=\"price-item price-item--sale price-item--last\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-details-sticky-atc__button-group\"]/button[@type=\"submit\"]/span/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"og:price:amount\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "img": [],
+        "brand": [],
+        "breadlist": [
+            {
+                "xpath": "//a[@class=\"breadcrumbs__item__link\"]/text()",
+                "node_index": 2
+            }
+        ],
+        "itemid": [
+            {
+                "xpath": "//div[@class=\"product-details__review-stars product-details__review-stars--desktop\"]/div[@class=\"yotpo bottomLine\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-details__review-stars product-details__review-stars--mobile\"]/div[@class=\"yotpo bottomLine\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"yotpo yotpo-main-widget\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"yotpo-widget-instance\"]/@data-yotpo-product-id",
+                "node_index": 0
+            }
+        ],
+        "skuid": [],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [
+            {
+                "json_xpath": "//script[@type=\"application/ld+json\"]/text()",
+                "json_node_index": 0,
+                "json_index": 0,
+                "json_key": "sku",
+                "divide_flag": null
+            }
+        ],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

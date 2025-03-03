@@ -1,0 +1,156 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//h1[@class=\"product-name\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//h1[@class=\"product-name hidden-sm-down\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"og:title\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//div[@class=\"prices pull-left\"]/div[@class=\"price\"]/span/span[@class=\"sales\"]/span[@class=\"value\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span/span[@class=\"sales\"]/span[@class=\"value\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"og:product:price:amount\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices pull-left\"]/div[@class=\"price\"]/span/span[@class=\"sales\"]/span[@class=\"value\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span/span[@class=\"sales\"]/span[@class=\"value\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [
+            {
+                "xpath": "//div[@class=\"prices pull-left\"]/div[@class=\"price\"]/span/del/span[@class=\"strike-through list\"]/span[@class=\"value\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span/del/span[@class=\"strike-through list\"]/span[@class=\"value\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices pull-left\"]/div[@class=\"price\"]/span/del/span[@class=\"strike-through list\"]/span[@class=\"value\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span/del/span[@class=\"strike-through list\"]/span[@class=\"value\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "cur_price": [
+            {
+                "xpath": "//div[@class=\"prices pull-left\"]/div[@class=\"price\"]/span/span[@class=\"sales\"]/span[@class=\"value\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span/span[@class=\"sales\"]/span[@class=\"value\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"og:product:price:amount\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices pull-left\"]/div[@class=\"price\"]/span/span[@class=\"sales\"]/span[@class=\"value\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span/span[@class=\"sales\"]/span[@class=\"value\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "img": [],
+        "brand": [],
+        "breadlist": [],
+        "itemid": [
+            {
+                "xpath": "//div[@class=\"price-rating-wrap d-flex justify-content-between align-items-center mb-7 mb-md-0\"]/div[@class=\"product-aggregate-rating\"]/div[@class=\"ratings pull-right\"]/div[@data-bv-show=\"rating_summary\"]/@data-bv-productid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"price-rating-wrap d-flex justify-content-between align-items-center\"]/div[@class=\"product-aggregate-rating\"]/div[@class=\"ratings pull-right\"]/div[@data-bv-show=\"rating_summary\"]/@data-bv-productid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//button[@class=\"add-to-cart btn btn-primary d-flex align-items-center justify-content-center \"]/@data-master-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@data-bv-show=\"reviews\"]/@data-bv-productid",
+                "node_index": 0
+            }
+        ],
+        "skuid": [
+            {
+                "xpath": "//div[@class=\"price-rating-wrap d-flex justify-content-between align-items-center mb-7 mb-md-0\"]/div[@class=\"product-aggregate-rating\"]/div[@class=\"product-number pull-left d-none\"]/span[@class=\"product-id\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"price-rating-wrap d-flex justify-content-between align-items-center\"]/div[@class=\"product-aggregate-rating\"]/div[@class=\"product-number pull-left d-none\"]/span[@class=\"product-id\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@class=\"sku\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-detail std-product product-wrapper mt-19 mt-md-2\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"d-flex swiper-container primary-image-viewer \"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"modal modal-full-height modal-full-width no-transparent zoomModal\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"pdp-in-store-inventory\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"notifyme-content form-group float-label required\"]/input[@type=\"hidden\"]/@value",
+                "node_index": 0
+            },
+            {
+                "xpath": "//button[@class=\"add-to-cart btn btn-primary d-flex align-items-center justify-content-center \"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//a[@class=\"mobile-pdp-barcode\"]/@data-pid",
+                "node_index": 0
+            }
+        ],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

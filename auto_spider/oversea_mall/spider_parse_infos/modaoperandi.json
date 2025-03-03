@@ -1,0 +1,70 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//h1[@class=\"ProductDetails__name\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//span[@class=\"PDPProductPrice__current-price\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [
+            {
+                "xpath": "//div[@class=\"PDPProductPrice__original-price\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "cur_price": [
+            {
+                "xpath": "//span[@class=\"PDPProductPrice__current-price\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "img": [
+            {
+                "xpath": "//meta[@data-rh=\"true\"]/@content",
+                "node_index": 7
+            }
+        ],
+        "brand": [
+            {
+                "xpath": "//a[@class=\"ProductDetails__designer\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "breadlist": [
+            {
+                "xpath": "//a[@itemprop=\"item\"]/span[@itemprop=\"name\"]/text()",
+                "node_index": 2
+            }
+        ],
+        "itemid": [
+            {
+                "xpath": "//div[@class=\"Stack Stack--vertical-6 ProductDetailPage\"]/@data-variant-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"ProductDetailPage__media\"]/@data-variant-pk",
+                "node_index": 0
+            }
+        ],
+        "skuid": [],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

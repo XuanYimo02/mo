@@ -1,0 +1,14 @@
+img_suffix = ['.jpg','.png','.gif','.jpeg','.webp','.heic','/image/','/images/']
+img_keys = ['src','data-src','srcset','data-large_image']
+img_nodes = ['img', 'picture']
+json_img_keys = ['image']
+json_img_keys_suffix = ['image', 'url', 'list_index_']
+key_less = ['href','src','data-src','srcset','content','data-large_image','width','height']
+value_less = ['javascript', 'application', 'json', '__NEXT_DATA__', 'async', '/']
+jsonx_xpath_keys = ['type', 'class', 'id']
+check_xpath_success = 'success'
+check_xpath_fail = 'fail'
+check_xpath_wrong = 'wrong'
+check_xpath_continue = 'continue'
+find_img_download_timeout = 60
+find_timeout = 60

@@ -1,0 +1,63 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//h1[@class=\"product-page-header__title \"]/text()",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//div[@data-pp-buyercountry=\"US\"]/@data-pp-amount",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [
+            {
+                "xpath": "//del/text()",
+                "node_index": 0
+            }
+        ],
+        "cur_price": [
+            {
+                "xpath": "//div[@class=\"product-page-price__prices\"]/b/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@id=\"paypal-placement-box\"]/@data-pp-amount",
+                "node_index": 0
+            }
+        ],
+        "img": [],
+        "brand": [
+            {
+                "xpath": "//strong[@class=\"product-page-header__brand\"]/a/text()",
+                "node_index": 0
+            }
+        ],
+        "breadlist": [],
+        "itemid": [],
+        "skuid": [],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [
+            {
+                "json_xpath": "//div/div/script[@type=\"application/ld+json\"]/text()",
+                "json_node_index": 1,
+                "json_index": 0,
+                "json_key": "sku",
+                "divide_flag": null
+            }
+        ],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

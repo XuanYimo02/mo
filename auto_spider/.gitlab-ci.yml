@@ -1,0 +1,15 @@
+variables:
+  MASTER_IMAGE_NAME: harbor.duomai.com/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME:$CI_COMMIT_REF_NAME
+#  MASTER_IMAGE_NAME: registry.cn-hangzhou.aliyuncs.com/domai/$CI_PROJECT_NAMESPACE-$CI_PROJECT_NAME:$CI_COMMIT_REF_NAME
+  IMAGE_NAME: harbor.duomai.com/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME
+
+stages:  
+  - build-image
+
+build-image:
+    stage: build-image
+    image: docker
+    script:
+        - mv -f ./oversea_mall/settings_master.py ./oversea_mall/settings.py
+        - docker build -t $IMAGE_NAME .
+        - docker push $IMAGE_NAME

@@ -1,0 +1,202 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productName_top\"]/div[@class=\"productName\"]/h1[@class=\"productName_title\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productName \"]/div[@class=\"productName\"]/h1[@class=\"productName_title\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"og:title\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productPrice_top\"]/div[@class=\"productPrice\"]/span[@class=\"productPrice_schema productPrice_priceAmount\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productPrice_top\"]/div[@class=\"productPrice\"]/div[@class=\"productPrice_priceWithBadge\"]/span[@class=\"productPrice_priceInfo\"]/p[@class=\"productPrice_price  \"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productPrice\"]/div[@class=\"productPrice\"]/span[@class=\"productPrice_schema productPrice_priceAmount\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productPrice\"]/div[@class=\"productPrice\"]/div[@class=\"productPrice_priceWithBadge\"]/span[@class=\"productPrice_priceInfo\"]/p[@class=\"productPrice_price  \"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productAddToBasket cta-sticky-bottom\"]/span[@data-product-id]/@data-product-price",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productAddToBasket\"]/span[@data-product-id]/@data-product-price",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productPrice_top\"]/div[@class=\"productPrice\"]/div[@class=\"productPrice_priceWithBadge\"]/span[@class=\"productPrice_priceInfo\"]/span[@class=\"productPrice_rrpPriceInfo\"]/p[@class=\"productPrice_rrp\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productPrice\"]/div[@class=\"productPrice\"]/div[@class=\"productPrice_priceWithBadge\"]/span[@class=\"productPrice_priceInfo\"]/span[@class=\"productPrice_rrpPriceInfo\"]/p[@class=\"productPrice_rrp\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "cur_price": [
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productPrice_top\"]/div[@class=\"productPrice\"]/span[@class=\"productPrice_schema productPrice_priceAmount\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productPrice_top\"]/div[@class=\"productPrice\"]/div[@class=\"productPrice_priceWithBadge\"]/span[@class=\"productPrice_priceInfo\"]/p[@class=\"productPrice_price  \"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productPrice\"]/div[@class=\"productPrice\"]/span[@class=\"productPrice_schema productPrice_priceAmount\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productPrice\"]/div[@class=\"productPrice\"]/div[@class=\"productPrice_priceWithBadge\"]/span[@class=\"productPrice_priceInfo\"]/p[@class=\"productPrice_price  \"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productAddToBasket cta-sticky-bottom\"]/span[@data-product-id]/@data-product-price",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productAddToBasket\"]/span[@data-product-id]/@data-product-price",
+                "node_index": 0
+            }
+        ],
+        "img": [],
+        "brand": [
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productDescriptionFull\"]/div[@class=\"athenaProductDescription\"]/div[@class=\"athenaProductDescription_contentPropertyList\"]/div[@class=\"productDescription_contentPropertyListItem  productDescription_contentPropertyListItem_productDetails  \"]/div[@hidden=\"until-found\"]/div[@class=\"productDescription_contentWrapper\"]/ul[@class=\"productDescription_contentPropertyValue productDescription_contentPropertyValue_brand\"]/li[@class=\"productDescription_contentPropertyValue_value\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productDescription\"]/div[@class=\"athenaProductDescription\"]/div[@class=\"athenaProductDescription_contentPropertyList\"]/div[@class=\"productDescription_contentPropertyListItem  productDescription_contentPropertyListItem_productDetails  \"]/div[@hidden=\"until-found\"]/div[@class=\"productDescription_contentWrapper\"]/ul[@class=\"productDescription_contentPropertyValue productDescription_contentPropertyValue_brand\"]/li[@class=\"productDescription_contentPropertyValue_value\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productAddToBasket cta-sticky-bottom\"]/span[@data-product-id]/@data-product-brand",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productAddToBasket\"]/span[@data-product-id]/@data-product-brand",
+                "node_index": 0
+            }
+        ],
+        "breadlist": [],
+        "itemid": [
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productPrice_top\"]/div[@class=\"productPrice\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productPrice\"]/div[@class=\"productPrice\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductVariations\"]/@data-master-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@data-variation-container=\"athenaProductVariations\"]/@data-child-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@data-variation-container=\"athenaProductVariations\"]/@data-linked-child-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productAddToBasket cta-sticky-bottom\"]/span[@data-product-id]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productAddToBasket\"]/span[@data-product-id]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductReviews\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductReviews_empty\"]/form[@action]/input[@type=\"hidden\"]/@value",
+                "node_index": 0
+            }
+        ],
+        "skuid": [
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productPrice_top\"]/div[@class=\"productPrice\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productPrice\"]/div[@class=\"productPrice\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductVariations\"]/@data-master-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@data-variation-container=\"athenaProductVariations\"]/@data-child-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@data-variation-container=\"athenaProductVariations\"]/@data-linked-child-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productAddToBasket cta-sticky-bottom\"]/span[@data-product-id]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productAddToBasket\"]/span[@data-product-id]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductReviews\"]/@data-product-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductReviews_empty\"]/form[@action]/input[@type=\"hidden\"]/@value",
+                "node_index": 0
+            }
+        ],
+        "category": [
+            {
+                "xpath": "//main[@id=\"mainContent\"]/@data-product-category",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productAddToBasket cta-sticky-bottom\"]/span[@data-product-id]/@data-product-category",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"athenaProductPage_productAddToBasket\"]/span[@data-product-id]/@data-product-category",
+                "node_index": 0
+            }
+        ]
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

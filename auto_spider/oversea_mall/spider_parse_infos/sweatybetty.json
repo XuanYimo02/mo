@@ -1,0 +1,63 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//h1[@class=\"osce162fi osce162gu osce162hr osce162h3 osce162il osce162mw osce162j0 mp96kj0 mp96kjf\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [
+            {
+                "xpath": "//img[@loading=\"eager\"]/@src",
+                "node_index": 0
+            },
+            {
+                "xpath": "//img[@loading=\"eager\"]/@data-src",
+                "node_index": 0
+            }
+        ],
+        "brand": [],
+        "breadlist": [
+            {
+                "xpath": "//a[@class=\"osce162fi osce162gu osce162hr osce162h3 osce162il osce162mw osce162j0 osce162k6 mp96kj0 mp96kj4 mp96kju mp96kj0\"]/text()",
+                "node_index": 1
+            }
+        ],
+        "itemid": [
+            {
+                "xpath": "//div[@class=\"bv-rating-summary\"]/@data-bv-productid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"bv-rating-summary\"]/@data-bv-product-id",
+                "node_index": 0
+            }
+        ],
+        "skuid": [
+            {
+                "xpath": "//div[@class=\"bv-rating-summary\"]/@data-bv-productid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"bv-rating-summary\"]/@data-bv-product-id",
+                "node_index": 0
+            }
+        ],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//h1[@class=\"sgh-pdp__product-title \"]/text()",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//span[@id=\"price_STK_HEADER\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@id=\"price\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//li[@class=\"pdp-slide-menu-filter-list__item pdp-slide-menu-filter-list__item--active js-pdp-slide-menu-filter-list-item\"]/a[@class=\"pdp-slide-menu-filter-list__link\"]/div[@class=\"pdp-slide-menu-filter-list-info\"]/div[@class=\"pdp-slide-menu-filter-list-info-price\"]/span[@class=\"pdp-slide-menu-filter-list-info-price__current\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//li[@class=\"pdp-slide-menu-filter-list__item  js-pdp-slide-menu-filter-list-item\"]/a[@class=\"pdp-slide-menu-filter-list__link\"]/div[@class=\"pdp-slide-menu-filter-list-info\"]/div[@class=\"pdp-slide-menu-filter-list-info-price\"]/span[@class=\"pdp-slide-menu-filter-list-info-price__current\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//sgh-loyalty-pdp-widget[@price]/@price",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [
+            {
+                "xpath": "//div[@class=\"sgh-pdp__price-box\"]/span[@tabindex=\"0\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"sgh-pdp__filter-list panel-group\"]/div[@class=\"sgh-pdp_price-info\"]/span[@tabindex=\"0\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "cur_price": [
+            {
+                "xpath": "//span[@id=\"offerPrice_STK_HEADER\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//span[@id=\"offerPrice\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//li[@class=\"pdp-slide-menu-filter-list__item pdp-slide-menu-filter-list__item--active js-pdp-slide-menu-filter-list-item\"]/a[@class=\"pdp-slide-menu-filter-list__link\"]/div[@class=\"pdp-slide-menu-filter-list-info\"]/div[@class=\"pdp-slide-menu-filter-list-info-price\"]/span[@class=\"pdp-slide-menu-filter-list-info-price__current\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//sgh-loyalty-pdp-widget[@price]/@price",
+                "node_index": 0
+            }
+        ],
+        "img": [],
+        "brand": [
+            {
+                "xpath": "//div[@class=\"sgh-breadcrumb__logo \"]/a/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//p[@class=\"sgh-pdp__brand-name\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "breadlist": [],
+        "itemid": [
+            {
+                "xpath": "//meta[@property=\"og:upc\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//sgh-ymal-pdp-carousel[@upc]/@upc",
+                "node_index": 0
+            }
+        ],
+        "skuid": [
+            {
+                "xpath": "//div[@class=\"pdp-sticky-header__item\"]/button[@aria-label=\"Add to bag\"]/@data-productid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"sgh-pdp__favorites\"]/button[@id]/@id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"ctaAddToCart\"]/button[@aria-label=\"Add to bag\"]/@data-productid",
+                "node_index": 0
+            }
+        ],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

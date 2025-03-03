@@ -1,0 +1,116 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//span[@class=\"product-heading-name\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//p[@class=\"product-name\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//input[@name=\"productName\"]/@value",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span[@class=\"sales \"]/span[@class=\"value\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span[@class=\"sales \"]/span[@class=\"value\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span[@class=\"sales discounted\"]/span[@class=\"strike-through list\"]/span[@class=\"value\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span[@class=\"sales discounted\"]/span[@class=\"strike-through list\"]/span[@class=\"value\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "cur_price": [
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span[@class=\"sales discounted\"]/span[@class=\"value\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prices\"]/div[@class=\"price\"]/span[@class=\"sales discounted\"]/span[@class=\"value\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "img": [],
+        "brand": [],
+        "breadlist": [
+            {
+                "xpath": "//li[@class=\"breadcrumb-item\"]/a/text()",
+                "node_index": 2
+            }
+        ],
+        "itemid": [],
+        "skuid": [
+            {
+                "xpath": "//div[@class=\"product-detail-container product-wrapper\"]/@data-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"product-detail-container product-wrapper\"]/@data-vgid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//button[@class=\"add-to-wish-list\"]/@data-option-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@data-component=\"SizeSuggestionComponent\"]/@data-option-vgid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"add-to-cart-div product-actions grid-container \"]/button[@class=\"add-to-cart btn btn-primary icon-left not-complete\"]/@data-option-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"sticky-btn d-none d-md-none\"]/button[@class=\"add-to-cart btn btn-primary icon-left not-complete\"]/@data-option-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"add-to-cart-div product-actions grid-container \"]/button[@class=\"btn btn-secondary btn-squared add-to-wish-list\"]/@data-option-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"notify-me-info product-actions grid-container d-none\"]/button[@class=\"btn btn-secondary btn-squared add-to-wish-list\"]/@data-option-pid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//input[@name=\"productID\"]/@value",
+                "node_index": 0
+            }
+        ],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [
+            {
+                "json_xpath": "//script/text()",
+                "json_node_index": 13,
+                "json_index": 1,
+                "json_key": "ecommerce>>>detail>>>products>>>list_index_0>>>id",
+                "divide_flag": null
+            }
+        ],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

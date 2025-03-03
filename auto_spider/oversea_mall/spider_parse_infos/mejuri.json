@@ -1,0 +1,87 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//p[@class=\"styled__Container-sc-aw9czy-0 boNuA-D\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@name=\"title\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"og:title\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"twitter:title\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"styled__ReviewBody-sc-xgf48o-0 ddoBFb yotpo yotpo-main-widget ljs-do-not-translate\"]/@data-name",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//p[@class=\"styled__Container-sc-aw9czy-0 jqdotQ styled__PriceText-sc-1w7fqcz-4\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"product:price:amount\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"styled__ReviewBody-sc-xgf48o-0 ddoBFb yotpo yotpo-main-widget ljs-do-not-translate\"]/@data-price",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [
+            {
+                "xpath": "//div[@data-h=\"pdp-desktop-asset-gallery-wrapper\"]/div[@data-h=\"product-gallery\"]/div[@data-h=\"product-image\"]/img[@class=\"styled__Img-sc-252d9e-0 iDUesO\"]/@srcset",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@data-h=\"pdp-mobile-asset-gallery-wrapper\"]/div[@data-h=\"product-gallery\"]/div[@data-h=\"product-image\"]/img[@class=\"styled__Img-sc-252d9e-0 iDUesO\"]/@srcset",
+                "node_index": 0
+            }
+        ],
+        "brand": [],
+        "breadlist": [],
+        "itemid": [
+            {
+                "xpath": "//div[@class=\"styled__ReviewBody-sc-xgf48o-0 ddoBFb yotpo yotpo-main-widget ljs-do-not-translate\"]/@data-product-id",
+                "node_index": 0
+            }
+        ],
+        "skuid": [
+            {
+                "xpath": "//meta[@property=\"og:sku\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [
+            {
+                "json_xpath": "//script[@type=\"application/json\"]/text()",
+                "json_node_index": 0,
+                "json_index": 0,
+                "json_key": "props>>>pageProps>>>product>>>master>>>id",
+                "divide_flag": null
+            }
+        ],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

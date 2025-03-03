@@ -1,0 +1,82 @@
+{
+    "xpath_list": {
+        "title": [
+            {
+                "xpath": "//span[@id=\"w_header\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "price": [
+            {
+                "xpath": "//span[@data-toggle=\"tooltip\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [
+            {
+                "xpath": "//p[@class=\"price-old notranslate\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "cur_price": [
+            {
+                "xpath": "//span[@data-toggle=\"tooltip\"]/text()",
+                "node_index": 0
+            }
+        ],
+        "img": [],
+        "brand": [
+            {
+                "xpath": "//h1/a/text()",
+                "node_index": 0
+            }
+        ],
+        "breadlist": [
+            {
+                "xpath": "//a[@itemtype]/span[@itemprop=\"name\"]/text()",
+                "node_index": 5
+            }
+        ],
+        "itemid": [
+            {
+                "xpath": "//div[@class=\"wrapper wrapper-js \"]/input[@type=\"hidden\"]/@data-towar-grupowanie-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prod-header-module col-xs-12 p-0\"]/span[@rel=\"fav\"]/@data-productid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prod-header-module col-xs-12 p-0\"]/span[@rel=\"fav\"]/@data-productid",
+                "node_index": 1
+            }
+        ],
+        "skuid": [
+            {
+                "xpath": "//div[@class=\"wrapper wrapper-js \"]/input[@type=\"hidden\"]/@data-towar-grupowanie-id",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prod-header-module col-xs-12 p-0\"]/span[@rel=\"fav\"]/@data-productid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"prod-header-module col-xs-12 p-0\"]/span[@rel=\"fav\"]/@data-productid",
+                "node_index": 1
+            }
+        ],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "xpath_list": {
+        "title": [],
+        "price": [
+            {
+                "xpath": "//span[@class=\"OneLinkNoTx\"]/text()",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"og:product:price:amount\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "brand": [
+            {
+                "xpath": "//meta[@name=\"apple-mobile-web-app-title\"]/@content",
+                "node_index": 0
+            },
+            {
+                "xpath": "//meta[@property=\"og:site_name\"]/@content",
+                "node_index": 0
+            }
+        ],
+        "breadlist": [],
+        "itemid": [
+            {
+                "xpath": "//div[@class=\"tfc-fitrec-product\"]/@data-styleid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"tfc-fitrec-product\"]/@data-styleid-private",
+                "node_index": 0
+            }
+        ],
+        "skuid": [
+            {
+                "xpath": "//div[@class=\"tfc-fitrec-product\"]/@data-styleid",
+                "node_index": 0
+            },
+            {
+                "xpath": "//div[@class=\"tfc-fitrec-product\"]/@data-styleid-private",
+                "node_index": 0
+            }
+        ],
+        "category": []
+    },
+    "json_list": {
+        "title": [],
+        "brand": [],
+        "itemid": [],
+        "skuid": [],
+        "price": [],
+        "ori_price": [],
+        "cur_price": [],
+        "img": [],
+        "breadlist": [],
+        "category": []
+    }
+}

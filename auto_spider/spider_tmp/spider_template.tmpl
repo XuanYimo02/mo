@@ -1,0 +1,213 @@
+# -*- coding: utf-8 -*-
+# @Time : ${time}
+# @Author : ${author}
+
+import logging
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__)))))
+import warnings
+import traceback
+from datetime import datetime
+from urllib.parse import urljoin
+import json
+import re
+import price_parser
+import scrapy
+from dmscrapy import defaults
+from dmscrapy.items import PostData
+from dmscrapy.dm_spider import DmSpider
+from utils.tools import get_now_datetime, download_imgs, gen_md5, get_oss_imgs
+from auto_parse.get_parse_info import get_auto_parse_info
+from auto_parse.tools import get_info_from_auto_parse
+warnings.filterwarnings("ignore")
+logger = logging.getLogger(__name__)
+
+
+class GoodsAllListSpider(DmSpider):
+    name = '${spider_name}:goods_all_list'
+    platform = "${spider_name}"
+    task_id = '${spider_name}'
+    sch_task = '${spider_name}-task'
+    today = datetime.now()
+    log_file_path = f'{os.path.dirname(os.path.dirname(os.path.realpath(__file__)))}//spider_logs//{platform}_{today.year}_{today.month}_{today.day}.log'
+    auto_parse_info_path = f'{os.path.dirname(os.path.dirname(os.path.realpath(__file__)))}//spider_parse_infos//{platform}.json'
+    custom_settings = {
+        "DOWNLOADER_MIDDLEWARES": {
+            # "oversea_mall.middlewares.OverseaProxyMiddleware": 200,
+        },
+        # 'DOWNLOAD_HANDLERS': {
+        #     'http': 'oversea_mall.middlewares.RequestsDownloadHandler',
+        #     'https': 'oversea_mall.middlewares.RequestsDownloadHandler',
+        # },
+        "CONTINUOUS_IDLE_NUMBER": 12,
+        'CONCURRENT_REQUESTS': 5,
+        "DOWNLOAD_DELAY": 0,
+        'DOWNLOAD_TIMEOUT': 10,
+        "LOG_LEVEL": "INFO",
+        "EXIT_ENABLED": True,
+        # 'LOG_FILE': log_file_path,
+        'LOG_STDOUT':False,
+        'REDIRECT_ENABLED': False
+    }
+
+    headers = {}
+    cookies = {}
+    proxies = {}
+    base_url = ''
+    xpath_list = {}
+    json_list = {}
+
+    def start_requests(self):
+        """
+        爬虫首页
+        """
+        web_datas = [
+            {
+                "url": "",
+                "title": "",
+                "cur_price": "",
+                "ori_price": "",
+                "img": "",
+                "breadlist": [
+                ],
+                'category': '',
+                "brand": "",
+                'itemid': '',
+                'skuid': ''
+            },
+            {
+                "url": "",
+                "title": "",
+                "cur_price": "",
+                "ori_price": "",
+                "img": "",
+                "breadlist": [
+                ],
+                'category': '',
+                "brand": "",
+                'itemid': '',
+                'skuid': ''
+            },
+            {
+                "url": "",
+                "title": "",
+                "cur_price": "",
+                "ori_price": "",
+                "img": "",
+                "breadlist": [
+                ],
+                'category': '',
+                "brand": "",
+                'itemid': '',
+                'skuid': ''
+            },
+            {
+                "url": "",
+                "title": "",
+                "cur_price": "",
+                "ori_price": "",
+                "img": "",
+                "breadlist": [
+                ],
+                'category': '',
+                "brand": "",
+                'itemid': '',
+                'skuid': ''
+            },
+            {
+                "url": "",
+                "title": "",
+                "cur_price": "",
+                "ori_price": "",
+                "img": "",
+                "breadlist": [
+                ],
+                'category': '',
+                "brand": "",
+                'itemid': '',
+                'skuid': ''
+            }
+        ]
+        self.xpath_list, self.json_list = get_auto_parse_info(self.auto_parse_info_path, web_datas, self.headers, self.cookies, self.proxies)
+        url = ''
+        yield scrapy.Request(
+            url=url,
+            dont_filter=True,
+            callback=self.parse_home,
+        )
+
+    async def parse_home(self, response, **kwargs):
+        """
+        爬虫首页抓取
+        """
+
+    async def parse_list(self, response, **kwargs):
+        """
+        爬虫列表页抓取
+        """
+
+    async def parse_detail(self, response, **kwargs):
+        """
+        爬虫详情页抓取
+        """
+        try:
+            title= get_info_from_auto_parse(response, 'title', self.xpath_list, self.json_list)
+            brand = get_info_from_auto_parse(response, 'brand', self.xpath_list, self.json_list)
+            price = get_info_from_auto_parse(response, 'price', self.xpath_list, self.json_list)
+            cur_price = get_info_from_auto_parse(response, 'cur_price', self.xpath_list, self.json_list)
+            ori_price = get_info_from_auto_parse(response, 'ori_price', self.xpath_list, self.json_list)
+            breadlist = get_info_from_auto_parse(response, 'breadlist', self.xpath_list, self.json_list)
+            if not breadlist:
+                breadlist = get_info_from_auto_parse(response, 'category', self.xpath_list, self.json_list)
+            # main_img = get_info_from_auto_parse(response, 'img', self.xpath_list, self.json_list)
+            itemid = get_info_from_auto_parse(response, 'itemid', self.xpath_list, self.json_list)
+            skuid = get_info_from_auto_parse(response, 'skuid', self.xpath_list, self.json_list)
+            cur_price = cur_price if cur_price else price
+            ori_price = ori_price if ori_price else price
+
+            imgs = []
+            specs = []
+
+
+            oss_imgs = imgs
+            # oss_imgs = get_oss_imgs(self.platform, imgs)
+            # await download_imgs(self.platform, imgs, skuid)
+            item = {
+                "platform": self.platform,
+                "itemid": itemid,
+                "skuid": skuid,
+                "title": title,
+                "price": cur_price,
+                "orig_price": ori_price,
+                "price_unit": "$",
+                "prices": {"US": {"p": cur_price, "o": ori_price, 'u': "$"}},
+                "imgs": oss_imgs,
+                "pic_url": oss_imgs[0],
+                "detail_url": response.url,
+                "brand_name": brand,
+                "category_info": breadlist,
+                "specs": specs,
+                "insert_time": get_now_datetime(),
+                "online": True,
+                "oversold": None,
+            }
+
+            print(item)
+
+            # data = PostData()
+            # data['dataRows'] = [item]
+            # data['name'] = 'goods_base'
+            # data[defaults.DM_SCHEDULER_TASK_ID] = response.meta.get(defaults.DM_SCHEDULER_TASK_ID)
+            # data[defaults.DM_SCHEDULER_FORCE_TASK] = response.meta.get(defaults.DM_SCHEDULER_FORCE_TASK)
+            # yield data
+
+
+        except Exception as e:
+            self.logger.error(f'{response.url} {e} {traceback.format_exc()}')
+
+
+if __name__ == '__main__':
+    from scrapy.cmdline import execute
+
+    execute('scrapy crawl ${spider_name}:goods_all_list'.split(' '))
